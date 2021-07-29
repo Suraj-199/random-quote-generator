@@ -128,5 +128,37 @@ transform: rotate(0deg);
     body {
       background: url("Pexels\ Videos\ 1970045.mp4") repeat;
       background-size: cover;
-    }
+    }.quote-box{
+		padding:3rem;
+		transition: 0.5s;
+		transition-timing-function: ease-in;
+		z-index: 1;
+
+}
+.text{
+	font-size:32px;
+	padding-left:10px;
+    font-weight: bold;
+	transition: 0.5s;
+	transition-timing-function: ease-in;
+	font-family: 'Roboto', sans-serif;
+	/**background-image: linear-gradient(to right bottom, #ed4264a8, #ffedbca8);*/
+	color:#fffc68;
+	
+}
+
+.quote{
+	transition: 0.5s;
+	transition-timing-function: ease-in;
+}
+
+.new-quote{
+	font-size:15px;
+	border-radius: 5px;
+	cursor:pointer;
+	padding-bottom: 8px;
+	padding-top: 9px;
+	margin-top: 5px;
+	background-image: linear-gradient(45deg, green, yellow);
+}
 }
